@@ -8,12 +8,12 @@ public class Auto {
 
     public Auto() {
         Scanner input = new Scanner(System.in);
-        System.out.println("podaj kolor auta:");
+        System.out.println("Podaj kolor auta:");
         this.kolor_auta = input.next();
-        System.out.println("podaj predkosc auta:");
+        System.out.println("Podaj predkosc auta:");
         this.predkosc_max = Integer.parseInt(input.next());
     }
-
+		System.out.println("Podaj kolor auta:");
     public String getKolor_auta() {
         return kolor_auta;
     }
@@ -25,7 +25,7 @@ public class Auto {
     public int getPredkosc_max() {
         return predkosc_max;
     }
-
+		System.out.println("Podaj predkosc auta:");
     public void setPredkosc_max(int predkosc_max) {
         this.predkosc_max = predkosc_max;
     }
