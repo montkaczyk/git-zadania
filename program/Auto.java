@@ -18,16 +18,17 @@ public class Auto {
         return kolor_auta;
     }
 
-    public void setKolor_auta(String kolor_auta) {
-        this.kolor_auta = kolor_auta;
+    public void setKolor_auta() {
+        this.kolor_auta = Integer.parseInt(input.next());
     }
 
     public int getPredkosc_max() {
         return predkosc_max;
     }
+		
+    public void setPredkosc_max() {
 		System.out.println("Podaj predkosc auta:");
-    public void setPredkosc_max(int predkosc_max) {
-        this.predkosc_max = predkosc_max;
+        this.predkosc_max = Integer.parseInt(input.next());
     }
 
     public String toString(){
