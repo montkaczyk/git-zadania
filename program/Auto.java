@@ -12,11 +12,18 @@ public class Auto {
         this.kolor_auta = input.next();
         System.out.println("Podaj predkosc auta:");
         this.predkosc_max = Integer.parseInt(input.next());
-    }
+    
 		System.out.println("Podaj kolor auta:");
+		}
     public String getKolor_auta() {
         return kolor_auta;
     }
+	public Auto() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Podaj kolor auta:");
+        this.kolor_auta = input.next();
+        System.out.println("Podaj predkosc auta:");
+        this.predkosc_max = Integer.parseInt(input.next());
 
     public void setKolor_auta() {
         this.kolor_auta = Integer.parseInt(input.next());
