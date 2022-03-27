@@ -24,14 +24,14 @@ public class Auto {
 		Scanner input = new Scanner(System.in);
         System.out.println("Podaj kolor auta:");
         this.kolor_auta = input.next();
-        this.kolor_auta = Integer.parseInt(input.next());
     }
 
-    public int getPredkosc_max() {
+    public int getPredkosc_max() { 	
         return predkosc_max;
     }
 		
     public void setPredkosc_max() {
+		Scanner input = new Scanner(System.in);
 		System.out.println("Podaj predkosc auta:");
         this.predkosc_max = Integer.parseInt(input.next());
     }
