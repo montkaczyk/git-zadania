@@ -18,14 +18,12 @@ public class Auto {
     public String getKolor_auta() {
         return kolor_auta;
     }
-	public Auto() {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Podaj kolor auta:");
-        this.kolor_auta = input.next();
-        System.out.println("Podaj predkosc auta:");
-        this.predkosc_max = Integer.parseInt(input.next());
+
 
     public void setKolor_auta() {
+		Scanner input = new Scanner(System.in);
+        System.out.println("Podaj kolor auta:");
+        this.kolor_auta = input.next();
         this.kolor_auta = Integer.parseInt(input.next());
     }
 
