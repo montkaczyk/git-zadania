@@ -13,19 +13,11 @@ public class Auto {
         System.out.println("Podaj predkosc auta:");
         this.predkosc_max = Integer.parseInt(input.next());
 		}
-    public String getKolor_auta() {
-        return kolor_auta;
-    }
-
 
     public void setKolor_auta() {
 		Scanner input = new Scanner(System.in);
         System.out.println("Podaj kolor auta:");
         this.kolor_auta = input.next();
-    }
-
-    public int getPredkosc_max() { 	
-        return predkosc_max;
     }
 		
     public void setPredkosc_max() {
@@ -34,8 +26,8 @@ public class Auto {
         this.predkosc_max = Integer.parseInt(input.next());
     }
 
-    public String toString(){
+    public void toString(){
         String tekst="predkosc maksymalna to:"+predkosc_max+" a kolor auta to :"+kolor_auta;
-        return tekst;
+        System.out.println(tekst);
     }
 }
