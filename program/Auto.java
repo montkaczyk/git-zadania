@@ -1,6 +1,6 @@
 class Auto
 import java.util.Scanner;
-
+//TEST KOMENTARZX
 public class Auto {
     private String kolor_auta;
     private int predkosc_max;
