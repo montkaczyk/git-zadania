@@ -27,7 +27,7 @@ public class Auto {
     }
 
     public void wypiszDane(){
-        String tekst="Predkosc maksymalna samochodu to:"+predkosc_max+", a kolor auta to :"+kolor_auta;
+        String tekst="Predkosc maksymalna samochodu to: "+predkosc_max+", a kolor auta to : "+kolor_auta;
         System.out.println(tekst);
     }
 }
