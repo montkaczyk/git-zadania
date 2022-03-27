@@ -26,7 +26,7 @@ public class Auto {
         this.predkosc_max = Integer.parseInt(input.next());
     }
 
-    public void toString(){
+    public void wypiszDane(){
         String tekst="predkosc maksymalna to:"+predkosc_max+" a kolor auta to :"+kolor_auta;
         System.out.println(tekst);
     }
